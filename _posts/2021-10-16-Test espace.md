@@ -1,6 +1,6 @@
 ---
 date: 2021-10-16
-category: Officialisation du Devlog
+category: Seconde catégorie
 ---
 
 Version 0.0.1
