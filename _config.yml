@@ -32,3 +32,5 @@ markdown: kramdown
 future: true
 encodig: utf-8
 highlighter: rouge
+
+theme: jekyll-theme-minimal
