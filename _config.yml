@@ -16,8 +16,8 @@
 # in the templates via {{ site.myvariable  }}.
 
 name: ???
-title: GSOC Devlog
-description: Tracking progress on ProjectX
+title: Vice Devlog
+description: Suivez les modifications des plateformes ViceMP
 
 gh_name: ???
 gh_commits: https://www.github.com/MovingBlocks/Terasology/commits/?author=???
