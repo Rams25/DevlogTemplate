@@ -25,7 +25,7 @@ layout: default
       {% for post in posts %}
       {% if post.content %}
       <tr>
-          <td><li><b>{{ post.date | date: "%-d %B" }}</b> par <b>{{ post.author }}</b></li></td>
+          <td><li><b>{{ post.date | date: "%-d %B" }}</b> {% if post.author %} par <b>{{ post.author }} {% endif %}</b></li></td>
           <td>
                 {{ post.content | remove: '<p>' | remove: '</p>' }}
           </td>
