@@ -29,7 +29,10 @@ AND THE DEV LOG STARTS FROM HERE -->
       {% for post in posts %}
       {% if post.content %}
       <tr>
-          <td><li><b>{{ post.date | date: "%-d %B" }}</b> {% if post.author %} par <b>{{ post.author }} {% endif %}</b></li></td>
+          <td>
+            <li><b>{% if post.title %}{{ post.title }} {% endif %}</b></li>
+            <li><b>{{ post.date | date: "%-d %B" }}</b> {% if post.author %} par <b>{{ post.author }} {% endif %}</b></li>
+          </td>
           <td>
                 {{ post.content | remove: '<p>' | remove: '</p>' }}
           </td>
