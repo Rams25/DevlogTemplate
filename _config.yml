@@ -33,4 +33,10 @@ future: true
 encodig: utf-8
 highlighter: rouge
 
+# -------------------------------------
+# Plugins Settings
+# -------------------------------------
+
+whitelist: date_filter_french
+
 theme: jekyll-theme-minimal
